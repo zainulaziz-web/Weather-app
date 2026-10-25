@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif,'Poppins' ;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+   height: 85vh;
+    background: linear-gradient(130deg ,#5a228a,#73123f   );
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin: 100px auto 0;
+}
+.search{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.search input{
+    outline: 0;
+    border: 0;
+    height:60px;
+    color: #555;
+    background-color: #ebfffc;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    padding: 10px 25px ;
+} 
+
+.search button {
+    outline: 0;
+    border: 0;
+     background-color: #ebfffc;
+     border-radius: 50%;
+     height: 60px;
+     width: 60px;
+     cursor: pointer;
+
+     transition: all 0.3s ease-in 0s ;
+}
+.search img{
+    width: 16px;
+}
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top:50px ;
+
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.humidity , .wind {
+    font-size: 28px;
+    margin-top: -6px;
+    
+} 
+
+.weather{
+    display: none;
+   
+}
+
+.error{
+
+    display: none;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.error p {
+    flex: 1;
+}
+
+.icon {
+    color: black ;
+   
+    margin-right: 1rem;
+    font-size: x-large;
+}
+
+.search button:hover{
+    box-shadow: 3px 3px 7px white ;
+    transform: scale(1.01);
+}
+.search button:active{
+    background-color:goldenrod;
+    box-shadow: 3px 3px 7px goldenrod ;
+    color: white;
+}
