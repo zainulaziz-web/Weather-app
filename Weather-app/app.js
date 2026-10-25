@@ -85,7 +85,7 @@ let btn = document.querySelector("button");
 btn.addEventListener('click',()=>{
   
    check(sea.value); 
-   
+   sea.value="";
 })
 
 
